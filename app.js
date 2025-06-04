@@ -26,7 +26,7 @@ const db = mysql.createConnection({
     user: 'root',      // Changez avec votre utilisateur MySQL
     password: 'root',      // Ajoutez votre mot de passe MySQL
     database: 'questionnaire', // Assurez-vous d'avoir créé cette base de données
-    port : 8001
+    port : 8001 // port de connexion
 });
 
 db.connect(err => {
